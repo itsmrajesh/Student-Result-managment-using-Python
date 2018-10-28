@@ -1,0 +1,5 @@
+create database srm;
+use srm;
+create table new_student(NAME varchar(50),USN varchar(21) primary key,SEMISTER int,DEPT varchar(50),CONTACT int(20));
+
+create table result(NAME varchar(20),USN varchar(20) primary key,SUBJECT_CODE varchar(20),SUBJECT_NAME varchar(20),MARKS int,RESULT char(10));
